@@ -9,8 +9,16 @@
         android:background="#cccccc"
         tools:context=".fragments.HomeFragment">
 
-    <include layout="@layout/comment_item"/>
-    <include layout="@layout/comment_item"/>
-    <include layout="@layout/comment_item"/>
+    <include
+            android:id="@+id/comment1"
+            layout="@layout/comment_item"/>
+
+    <include
+            android:id="@+id/comment2"
+            layout="@layout/comment_item"/>
+
+    <include
+            android:id="@+id/comment3"
+            layout="@layout/comment_item"/>
 
 </LinearLayout>

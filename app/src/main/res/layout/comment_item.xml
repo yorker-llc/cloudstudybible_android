@@ -13,8 +13,8 @@
 
         <ImageView
                 android:id="@+id/ivProfileImage"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginBottom="2dp"
                 android:layout_marginRight="2dp"
@@ -28,6 +28,7 @@
                 android:layout_marginBottom="2dp"
                 android:layout_toRightOf="@+id/ivProfileImage"
                 android:layout_alignParentRight="true"
+                android:textSize="12sp"
                 android:text="John 3:16 - For God so loved the world ..."/>
 
         <TextView
@@ -39,6 +40,7 @@
                 android:layout_toRightOf="@+id/ivProfileImage"
                 android:layout_alignParentRight="true"
                 android:layout_below="@+id/tvVerse"
+                android:textSize="12sp"
                 android:text="This is the gospel verse used by many preachers..."/>
 
         <View
